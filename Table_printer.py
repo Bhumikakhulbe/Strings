@@ -12,7 +12,7 @@ def printTable(): #function printTable is created
         except ValueError:
             print("Enter an integer value")
             continue 
-        break #breaks the statement
+        break #breaks the loop
     List1=[] #empty list is created
     for i in range(1,n+1): 
         List2=[] #empty list is created
